@@ -1,0 +1,48 @@
+_comments_
+<comment> = <A parameter file for the code>
+<sans OpenMP> = <1m17>
+<avec OpenMP> = <20s>
+
+
+_tracer_
+<algorithm> = <rg4>		#Euler or RG4
+<dl> = <0.1>			#The maximum value of d\lambda
+<rout> = <70.0>			#The radius of the outer sphere
+<bimage> = <background.ppm>	#The path of the image projected onto the outer sphere
+
+
+_bh_
+<M> = <1.0>			#The mass of the black hole
+<a> = <0.0>			#The parameter of the black hole
+
+
+_camera_
+<fov> = <45.0>			#The field of view (in degrees)
+<width> = <1920>			#The width of the image (in pixels)
+<height> = <1080>		#The width of the image (in pixels)
+
+
+_pos0_
+<x> = <60.0>			#The position (xn, yn, zn) and orientation (an, bn) of the camera
+<y> = <0.0>			#for frame n
+<z> = <0.0>
+<a> = <3.14159265359>
+<b> = <1.57079632679>
+<out> = <render.ppm>
+
+_spos1_
+<x> = <-30.0>			#The position (xn, yn, zn) and orientation (an, bn) of the camera
+<y> = <0.0>			#for frame n
+<z> = <0.0>
+<a> = <0.0>
+<b> = <1.57079632679>
+<out> = <render.ppm>
+
+_spos2_
+<x> = <-30.0>			#The position (xn, yn, zn) and orientation (an, bn) of the camera
+<y> = <0.0>			#for frame n
+<z> = <0.0>
+<a> = <0.0>
+<b> = <1.57079632679>
+<out> = <render.ppm>
+
