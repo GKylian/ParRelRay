@@ -200,8 +200,8 @@ color getColor(color *bimage, ld4 p, int width, int height, ld4 u) {
         cout << "r: " << p.x << ", phi: " << phi << ", theta: " << theta << endl;
 
 
-    int x = round(  fmodl(phi/(2.0*M_PI)*width, width)  );
-    int y = round(  fmodl(theta/M_PI*height, height)  );
+    int x = round(  fmodl(phi/(2.0*M_PI)*width, width)  ); if(x == width) x -= 1;
+    int y = round(  fmodl(theta/M_PI*height, height)  );   if(y == height) y -= 1;
 
     if (x < 0 || x >= width) {
         cout << "ERROR:::getColor::PIXEL_OUT_OF_RANGE: x=" << x << endl;

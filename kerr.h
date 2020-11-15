@@ -40,7 +40,7 @@ ld getu0(blackhole bh, ld4 p, ld4 v) {
 ld4 d2x(blackhole *bh, ld4 *p, ld4 *u) {
 	ld4 g = { 0.0,0.0,0.0,0.0 };
 	ld rs = bh->rs; ld a = bh->a; ld a2 = a*a;
-	ld r = p->x; ld r2 = r*r; ld r3 = r2*r;
+	ld r = p->x; ld r2 = r*r;
 
 	double theta = p->y; if (fabs(theta) < 1e-4) theta = 1e-4; if (theta > M_PI-1e-4) theta = M_PI-1e-4;
 	double cos_2 = cos(2*theta); double cos2 = cos(theta)*cos(theta); double sin_2 = sin(2*theta);
