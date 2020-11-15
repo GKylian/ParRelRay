@@ -13,13 +13,13 @@ _tracer_
 
 _bh_
 <M> = <1.0>			#The mass of the black hole
-<a> = <0.0>			#The parameter of the black hole
+<a> = <0.9>			#The parameter of the black hole
 
 
 _camera_
 <fov> = <45.0>			#The field of view (in degrees)
-<width> = <1920>			#The width of the image (in pixels)
-<height> = <1080>		#The width of the image (in pixels)
+<width> = <1280>			#The width of the image (in pixels)
+<height> = <720>		#The width of the image (in pixels)
 
 
 _pos0_

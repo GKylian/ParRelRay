@@ -1,13 +1,11 @@
 #include <iostream>
 #include <omp.h>
 #include <vector>
-#define _USE_MATH_DEFINES
-#include <math.h>
 
 #include "params.h"
 #include "utils.h"
 
-#define SCHWARZSCHILD
+#define KERR //SCHWARZSCHILD
 
 #ifdef SCHWARZSCHILD
     #include "schwarzschild.h"
