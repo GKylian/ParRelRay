@@ -1,6 +1,6 @@
+![](examples/result-comparison.png)
 # ParRelRay
 Relativistic ray tracer using CUDA
-![](examples/result-comparison.png)
 
 ## Input files:
 * **input/sim.params:** all parameters (solver precision, image size, black hole, field of view, SSAA, ...)
@@ -10,4 +10,4 @@ Relativistic ray tracer using CUDA
 ## Examples:
 ![](examples/non-rotating.png)
 ![](examples/a%3D0%2C95.png)
-<video src='examples/earthbh.mp4'>
+<video src='examples/earthbh.mp4' width='480'>
