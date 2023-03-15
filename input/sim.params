@@ -1,0 +1,38 @@
+_comments_
+<comment> = <A parameter file for the code>
+<sans OpenMP> = <1m17>
+<avec OpenMP> = <20s>
+<ffmpeg command> = <     ffmpeg -r 60 -i renders/image_%d.png -vcodec libx264 -preset veryslow -crf 17 earthbh.mp4     >
+
+
+_tracer_
+<solver> = <rkf>			#Euler or RG4
+<hmin> = <0.0001>			#The minimum value of the step
+<h> = <0.01>				#The default value of the step
+<hmax> = <0.1>				#The maximum value of the step
+<eps> = <0.001>				#The maximum error allowed for the position (with adaptive solvers)
+<rout1> = <70.0>			#The radius of the outer sphere
+<rout2> = <100.0>
+<bimage1> = <input/binback.ppm>	#The path of the image projected onto the outer sphere (l>0 if wormhole)		background.ppm
+<bimage2> = <>				#The path of the image projected onto the outer sphere (l<0 if wormhole)
+<out> = <renders/>
+<traj> = <input/traj.params>
+<scene> = <input/scene.params>
+
+
+
+_spacetime_
+<hasBlackHole> = <1>		#Is there a black-hole
+<matterDataPath> = <>		#Path to the file containing the matter information (if any)
+<mass> = <0.0>			#The mass of the black hole
+<spin> = <0.0>			#The parameter of the black hole
+<charge> = <0.0>
+
+
+_camera_
+<vfov> = <120.0>			#The vertical field of view (in degrees)
+<width> = <2560>		#The width of the image (in pixels)
+<height> = <1440>
+<SSAA> = <regular>
+<SSAAsamples> = <9>		#Put to 1 if no SSAA
+
