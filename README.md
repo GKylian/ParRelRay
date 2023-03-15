@@ -8,6 +8,7 @@ Relativistic ray tracer using CUDA
 * **input/scene.params:** scene objects (as of 05.05.2021 only textured spheres are implemented)
 
 ## Examples:
+[Earth rotating around a black hole (a=0)](https://youtu.be/syr7AJCgO_k)
+
 ![](examples/non-rotating.png)
 ![](examples/a%3D0%2C95.png)
-<video src='examples/earthbh.mp4' width='480'>
